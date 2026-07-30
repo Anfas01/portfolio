@@ -25,16 +25,22 @@ export function Navbar() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="text-sm text-zinc-400 transition-colors hover:text-white"
+                className="text-sm font-medium text-zinc-400 transition-colors duration-200 hover:text-white"
               >
                 {item.label}
               </Link>
             ))}
           </div>
 
-          {/* Resume Button */}
-          <Button size="sm">
-            Resume
+          {/* Resume */}
+          <Button size="sm" asChild>
+            <a
+              href="/resume/Anfas_M_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
           </Button>
         </nav>
       </Container>
