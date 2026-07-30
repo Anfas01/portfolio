@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/layout";
-import { Hero, Projects } from "@/components/sections";
+import { Contact, Hero, Journey, Projects, Skills } from "@/components/sections";
 
 export default function Home() {
   return (
@@ -9,6 +9,9 @@ export default function Home() {
       <main>
         <Hero />
         <Projects />
+        <Journey />
+        <Skills />
+        <Contact />
       </main>
     </>
   );

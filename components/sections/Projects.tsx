@@ -11,16 +11,21 @@ export function Projects() {
       description="A selection of projects that demonstrate my skills in full-stack development, backend architecture, and modern web technologies."
     >
       <div className="grid gap-8 lg:grid-cols-2">
-        {featuredProjects.map((project) => (
-          <ProjectCard
+        {featuredProjects.map((project, index) => (
+          <div
             key={project.title}
-            title={project.title}
-            tagline={project.tagline}
-            description={project.description}
-            technologies={project.technologies}
-            github={project.github}
-            demo={project.demo}
-          />
+            className={index === 0 ? "lg:col-span-2" : ""}
+          >
+            <ProjectCard
+              index={index}
+              title={project.title}
+              tagline={project.tagline}
+              description={project.description}
+              technologies={project.technologies}
+              github={project.github}
+              demo={project.demo}
+            />
+          </div>
         ))}
       </div>
     </PageSection>
