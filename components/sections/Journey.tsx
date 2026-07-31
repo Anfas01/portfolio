@@ -1,5 +1,5 @@
 import { Heading, Text } from "@/components/ui";
-import { PageSection } from "@/components/shared/PageSection";
+import { PageSection } from "@/components/shared";
 
 const journey = [
   {

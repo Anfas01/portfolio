@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui";
-import { PageSection } from "@/components/shared/PageSection";
+import { PageSection } from "@/components/shared";
 
 import { skills } from "@/content/skills";
 

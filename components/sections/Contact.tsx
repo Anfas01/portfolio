@@ -1,4 +1,4 @@
-import { PageSection } from "@/components/shared/PageSection";
+import { PageSection } from "@/components/shared";
 import { Button, Text } from "@/components/ui";
 
 export function Contact() {
@@ -24,7 +24,7 @@ export function Contact() {
 
           <Button variant="outline" asChild>
             <a
-              href="/resume/Anfas_M_Resume.pdf"
+              href="/resume/Anfas_M_Full_Stack_Developer_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

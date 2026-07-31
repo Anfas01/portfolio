@@ -44,7 +44,7 @@ export function Navbar() {
             <div className="hidden md:block">
               <Button size="sm" asChild>
                 <a
-                  href="/resume/Anfas_M_Resume.pdf"
+                  href="/resume/Anfas_M_Full_Stack_Developer_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -81,7 +81,7 @@ export function Navbar() {
 
               <Button size="sm" asChild>
                 <a
-                  href="/resume/Anfas_M_Resume.pdf"
+                  href="/resume/Anfas_M_Full_Stack_Developer_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -1,5 +1,5 @@
 import { ProjectCard } from "@/components/cards";
-import { PageSection } from "../shared/PageSection";
+import { PageSection } from "@/components/shared";
 
 import { featuredProjects } from "@/content/projects";
 
